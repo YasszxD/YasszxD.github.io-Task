@@ -1,0 +1,107 @@
+*{
+    font-family: 'Source Code Pro', monospace;
+}
+header{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 100px;
+    text-align: center;
+    color: brown;
+    text-shadow: 0px 0px 10px;
+}
+body{
+    background-color: rgb(250, 248, 248);
+}
+main{
+    margin: auto;
+    width: 60%;
+    height: 900px;
+    background-color: white;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px rgb(214, 214, 214);
+    
+}
+
+span, .newTask, .clearBtn, .tasks{
+    display: block;
+    margin: 20px;
+    
+}
+.list{
+    font-size: 25px;
+    padding-top: 30px;
+}
+.add{
+    color: tomato;
+}
+.newTask{
+    border: 0px;
+    border-bottom: 2px solid gray;
+    border-radius: 5px;
+    width: 95%;
+    margin: auto;
+    
+    transition: 500ms;
+
+}
+.newTask:focus{
+    outline: 0px;
+    border-bottom: 2px solid rgb(135, 211, 224);
+    border-radius: 5px;
+}
+
+.addBtn{ 
+    margin: 20px; 
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;
+    transition: 500ms;
+}
+.addBtn:focus{
+    outline: 0px;
+    border: 2px solid rgb(126, 169, 177);
+    border-radius: 5px;
+    background-color:rgb(135, 211, 224) ;
+    color: rgb(255, 255, 255);
+}
+.clearBtn{
+    padding: 10px;
+    width: 80px;
+    transition: 500ms;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    
+}
+.clearBtn:focus{
+    outline: 0px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    background-color:rgb(235, 80, 69) ;
+    color: rgb(255, 255, 255);
+}
+
+.taskItem{
+    background-color: burlywood;
+    padding:10px;
+    border:rgb(59, 50, 37) ;
+    border-radius: 25px;
+    color: rgb(59, 50, 37);
+    margin: 5px;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+.error{
+    color: white;
+    background-color: red;
+    border: red;
+    padding: 10px;
+    border-radius: 5px ;
+    display: none;
+}
+.active{
+    display: inline;
+}
+.line{
+    text-decoration: line-through;
+}
